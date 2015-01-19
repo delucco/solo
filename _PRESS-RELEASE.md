@@ -1,4 +1,4 @@
-# Project Name #
+# Rock Paper Scissors #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -18,27 +18,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  # Rock Paper Scissors
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  # Decide who does an unpleasant task with a click of the button
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  # Pick from three battle options that can each defeat one other option, and can be defeated by one other option. Your option will be compared to your opponents to see who the winner is!
 
 ## Problem ##
   > Describe the problem your product solves.
+  # Often times there exists a task that can be performed equally well by two individuals or groups, however this task may be time consuming, unpleasant or just a low priority. Regardless, it is a task that needs to be done and a fair solution as to who performs it must be agreed upon. 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  # This app allows the two parties to come to this agreement regardless of where they are located, as long as both parties have internet. They each simply select one of three options by clicking a button, and this option will be compared to their opponents option. Whichever option has the advantage over the other is the winner. 
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  # "I was sick of always having to dishes in our house, so I built this app to fairly and easily decide if my wife should do the dishes occassionally. My hands have never felt better, and Rock Paper Scissors can make your life better too!"
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  # Enter your name. Choose your opponent. Choose your weapon. See who wins.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  # My former roommate and I moved out of our place about a month ago. We were both recently notified that the pullout couch in the basement had to be removed (even though it wasn't ours) or we would not get our security deposit back. So one of us had to pick it up. Thanks to Rock Paper Scissors, I dodged a major bullet! My old roommate had to drive over and take care of that heavy piece of junk.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  # Have a problem you need to settle up with someone? Head here and setlle it in a heartbeat!
