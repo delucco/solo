@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/underscore.js"></script>
+    <script src="lib/backbone.js"></script>
+
+    <script src="src/Models/weapon.js"></script>
+    <script src="src/Models/game.js"></script>
+    <script src="src/collections/weapons.js"></script>
+
+    <script src="src/Views/gameView.js"></script>
+    <script src="src/Views/weaponView.js"></script>
+    <script src="src/Views/weaponsView.js"></script>
+
+    <script>
+      var testAppModel = new WeaponsCollection([
+        new Weapon({tool: 0, action: "Paper covers Rock", img: 'images/PaperIcon.png'}), 
+        new Weapon({tool: 1, action: "Rock smashes Scissors", img: 'images/RockIcon.png'}), 
+        new Weapon({tool: 2, action: "Scisors cuts Paper", img: 'images/ScissorsIcon.png'})]);
+      var testAppView = new WeaponsView({collection: testAppModel});
+      var testGame = new Game({options: testAppModel});
+      var testGameView = new GameView({model: testGame});
+
+    </script>
+
+  </body>
+</html>
