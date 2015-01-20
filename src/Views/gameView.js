@@ -1,7 +1,9 @@
 var GameView = Backbone.View.extend({
 
+  //className: 
+
   template: _.template(
-    '<img class="matches" src="<%= player.get("img") %>"><h1 class="matches"><%= winner %></h1><img class="matches" src="<%= opponent.get("img") %>">'),
+    '<img class="matches <%= player.get("class") %>" src="<%= player.get("img") %>"><h1 class="matches"><%= winner.get("action") %></h1><img class="matches" src="<%= opponent.get("img") %>">'),
 
   initialize: function(){
     this.render();
@@ -9,7 +11,6 @@ var GameView = Backbone.View.extend({
   },
 
   render: function(){
-    console.log(this.model.attributes);
     this.$el.children().detach();
     this.$el.html(this.template(this.model.attributes));
     $('body').append(this.$el);

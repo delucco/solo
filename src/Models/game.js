@@ -4,29 +4,29 @@ var Game = Backbone.Model.extend({
     this.set('options', params.options);
     this.set('player', new Weapon());
     this.set('opponent', new Weapon());
-    this.set('winner', 'PLAY A GAME');
+    this.set('winner', new Weapon());
 
     this.get('options').on('selected', function(player){
       this.set('player', player);
+      this.set('opponent', new Weapon(choices[0][Math.floor(Math.random()*3)]));
       this.matchUp(this.get('player'), this.get('opponent'));
     }, this);
-
   },
 
   matchUp: function(player, opponent){
+
     var A = player.get('tool');
-    var B = Math.floor(Math.random()*3);
-    //opponent.get('tool');
+    var B = opponent.get('tool');
 
     if (((A == 0) && (B == 1)) || ((A == 1) && (B == 2)) || ((A == 2) && (B == 0))) {
-      this.set('winner', 'PLAYER WINS');
-      console.log('player wins' + B + ' vs ' + A);
+      this.get('player').set('class', 'win');
+      this.set('winner', player);
     } else if (A == B) {
-      this.set('winner', 'TIE');
-      console.log('tie! ' + B + ' vs ' + A);
+      this.get('player').set('class', 'tie');
+      this.set('winner', new Weapon({action: "Its a TIE!"}));
     } else {
-      this.set('winner', 'OPPONENT WINS');
-      console.log('opponent wins ' + B + ' vs ' + A);
+      this.get('player').set('class', 'lose');
+      this.set('winner', opponent);
     }
   }
 

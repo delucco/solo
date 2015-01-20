@@ -14,12 +14,12 @@ section {
 
 .weapons button {
   float: left;
-  width: 33%;
+  width: 150px;
 }
 
 .matches {
   float: left;
-  /*width: 50%;*/
+  width: 150px;
 }
 /*.weapons button {
   display: none;

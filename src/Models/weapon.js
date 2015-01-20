@@ -5,9 +5,10 @@ var Weapon = Backbone.Model.extend({
   },
 
   defaults: {
-    tool: Math.floor(Math.random()*3),
-    action: '',
-    img: 'images/cowboy.png'
+    tool: '',
+    action: 'PLAY A GAME',
+    img: 'images/cowboy.png',
+    class: ''
   },
 
   select: function(){
