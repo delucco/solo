@@ -20,6 +20,7 @@ section {
 .matches {
   float: left;
   width: 150px;
+  margin: 30px;
 }
 /*.weapons button {
   display: none;

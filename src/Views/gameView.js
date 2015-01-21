@@ -1,7 +1,7 @@
 var GameView = Backbone.View.extend({
 
   template: _.template(
-    '<img class="matches <%= player.get("class") %>" src="<%= player.get("img") %>"><h1 class="matches"><%= winner.get("action") %></h1><img class="matches" src="<%= opponent.get("img") %>">'),
+    '<h1><%= winner.get("action") %></h1><div class="matches <%= player.get("class") %>">YOU<img src="<%= player.get("img") %>"></div><div class="matches">VS<img src="<%= opponent.get("img") %>"></div>'),
 
   initialize: function(){
     this.render();

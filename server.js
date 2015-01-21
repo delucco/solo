@@ -18,6 +18,8 @@ app.get('/', function(req, res){
   //res.sendFile(__dirname + '/index.html')
 });
 
-app.post('/', function(){});
+app.post('/', function(req, res){
+  
+});
 
 ///Users/delucco80/Desktop/programs/2014-12-solo/
