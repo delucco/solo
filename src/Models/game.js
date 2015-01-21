@@ -28,6 +28,11 @@ var Game = Backbone.Model.extend({
       this.get('player').set('class', 'lose');
       this.set('winner', opponent);
     }
+    
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify(this.get('winner'))
+    })
   }
 
 })
