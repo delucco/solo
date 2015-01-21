@@ -9,8 +9,9 @@ var WeaponsView = Backbone.View.extend({
     this.$el.append(
       this.collection.map(function(weapon){
         return new WeaponView({model: weapon}).$el;
-      }))
+      }));
     $('body').append(this.$el);
+
   }
 
 })

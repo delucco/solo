@@ -1,0 +1,29 @@
+{
+  "name": "2014-12-solo",
+  "version": "0.0.1",
+  "description": "rock paper scissors",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.11.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^1.4.28",
+    "mongoose": "^3.8.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delucco/2014-12-solo.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "test",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delucco/2014-12-solo/issues"
+  },
+  "homepage": "https://github.com/delucco/2014-12-solo"
+}
